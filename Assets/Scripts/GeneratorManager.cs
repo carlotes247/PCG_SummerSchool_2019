@@ -37,6 +37,7 @@ public class GeneratorManager : MonoBehaviour
         geometryGenerator.noiseBoundaries.x = effectBoundaries.x;
         geometryGenerator.noiseBoundaries.y = effectBoundaries.y;
         geometryGenerator.noiseY = true;
+        geometryGenerator.noiseX = true;
 
     }
 
